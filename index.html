@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePoint</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<!-- bg-[url('logo.jpg')] -->
+
+<body class="bg-slate-950 h-screen w-screen">
+    <div
+        class="container bg-[url('bg-image.webp')] min-w-full h-[700px] bg-center bg-cover px-0 py-0 text-white relative">
+        <header class="bg-black">
+            <nav class="flex items-center text-center">
+                <img src="logo.jpg" alt="" class="h-14 ml-10 cursor-pointer py-2" />
+                <h2 class="flex-1 size-8 text-lg">GAMEPOINT</h2>
+                <div
+                    class="toggle-button text-center border border-white mr-14 px-4 py-2 rounded-3xl hover:border hover:border-collapse hover:bg-slate-200 hover:text-black">
+                    <p class="inline-block">MENU</p>
+                    <i class='bx bx-menu w-10 cursor-pointer'></i>
+                </div>
+                <div
+                    class="dropdown-menu invisible absolute top-[55px] right-[0px] bg-black w-72 flex flex-col gap-6 items-center py-5 rounded-lg">
+                    <ul class="text-center flex flex-col items-center gap-6">
+                        <li class="list-none px-5 py-3 hover:bg-slate-500 hover:rounded-3xl"><a href="#home"
+                                class="no-underline text-white px-2">Home</a>
+                        </li>
+                        <li class="list-none px-5 py-3 hover:bg-slate-500 hover:rounded-3xl"><a href="#about"
+                                class="no-underline text-white px-2">About
+                                Us</a>
+                        </li>
+                        <li class="list-none px-5 py-3 hover:bg-slate-500 hover:rounded-3xl"><a href="#Explore"
+                                class="no-underline text-white px-2">Explore</a>
+                        </li>
+                        <li class="list-none px-5 py-3 hover:bg-slate-500 hover:rounded-3xl"><a href="#join"
+                                class="no-underline text-white px-2">Join</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="mt-48 w-full text-center px-10 mx-0">
+                <h1 class="text-6xl font-light leading-normal text-slate-400">Welcome to <span
+                        class="font-semibold text-red-700">GAMEPOINT.</span></h1>
+                <p class="w-50 text-slate-200">At <span class="font-semibold text-red-700">GAMEPOINT.</span>, we are
+                    passionate about
+                    gaming. Whether you're an avid gamer, a
+                    casual player, or just getting started, we have everything you need to elevate your gaming
+                    experience.
+                    With a vast selection of the latest titles, classic favorites, and must-have accessories, we're your
+                    one-stop destination for all things gaming.</p>
+
+                <div class="mt-10">
+                    <a href="#"
+                        class="bg-red-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-red-700 hover:duration-300">Getting
+                        Started</a>
+                    <a href="#"
+                        class="border border-red-600 rounded-3xl py-2 px-8 font-medium inline-block mr-4">Download
+                        App <span class="text-lg inline-block rotate-90">&#10148;</span></a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="h-[650px]">
+            <div class="w-[1250px] px-10 mx-10 pt-56 pb-48 mt-[80px]">
+                <img src="logo.jpg" class="h-48 rounded-full float-right inline-block">
+                <h1 class="text-6xl font-light leading-loose text-slate-400">Why <span
+                        class="font-semibold text-red-700"> GAMEPOINT?</span></h1>
+                <p class="w-50 text-slate-200 leading-loose"><span class="font-semibold text-red-700">Want to be the
+                        first to get your
+                        hands on the hottest
+                        titles? </span><br>
+                    <span class="uppercase font-bold">Sign up </span> for our newsletter to receive exclusive updates,
+                    special
+                    offers, and early access to
+                    pre-orders.<br> Whether it's limited edition collectibles, bonus content, or VIP perks, our loyal
+                    customers always get the inside scoop.
+                </p>
+
+
+            </div>
+        </section>
+
+        <section id="Explore" class="h-[650px] bg-black">
+            <div class="w-[1250px] px-10 mx-10 pt-12 pb-48 mt-[10px]">
+                <h1 class="text-6xl font-light leading-loose text-slate-400">Explore Our<span
+                        class="font-semibold text-red-700"> Extensive Game Library</span></h1>
+                <p class="w-50 text-slate-200 leading-loose">
+                    Dive into a world of endless possibilities with
+                    our diverse collection of games. From action-packed adventures and immersive RPGs to pulse-pounding
+                    shooters and mind-bending puzzles, we have something for every type of gamer. Discover new releases,
+                    explore hidden gems, and revisit timeless classics - the choice is yours.
+                </p>
+                <div class="h-[250px] w-[350px] inline-block py-10 px-12 mx-2 text-center">
+                    <h3 class="font-semibold text-red-600 mb-5">Snake Game</h3>
+                    <img src="img-snake.png" class="transition duration-0 hover:duration-150">
+                    <a href="#"
+                        class="bg-red-500 rounded-3xl py-3 px-8 mt-5 font-medium inline-block mr-4 hover:bg-red-700 hover:duration-300">Play
+                        Now</a>
+                </div>
+                <div class="h-[250px] w-[350px] inline-block py-10 px-12 mx-2 text-center">
+                    <h3 class="font-semibold text-red-600 mb-5">Sudoku</h3><img src="img-sudoku.png"
+                        class="transition duration-0 hover:duration-150">
+                    <a href="#"
+                        class="bg-red-500 rounded-3xl py-3 px-8 mt-5 font-medium inline-block mr-4 hover:bg-red-700 hover:duration-300">Play
+                        Now</a>
+
+                </div>
+                <div class="h-[250px] w-[350px] inline-block py-10 px-12 mx-2 text-center">
+                    <h3 class="font-semibold text-red-600 mb-5">Tic Tac Toe</h3><img src="img-tic.png"
+                        class="transition duration-0 hover:duration-150">
+                    <a href="#"
+                        class="bg-red-500 rounded-3xl py-3 px-8 mt-5 font-medium inline-block mr-4 hover:bg-red-700 hover:duration-300">Play
+                        Now</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="h-[350px]">
+            <div class="mt-48 w-full text-center px-10 mx-0">
+                <h1 class="text-6xl font-light leading-normal text-slate-400">Join Our<span
+                        class="font-semibold text-red-700">Community.</span></h1>
+                <p class="w-50 text-slate-200">
+                    Gaming is more than just a hobby - it's a way of life. Connect with fellow gamers, share tips and
+                    strategies, and stay up-to-date on the latest news and events in our vibrant online community.
+                    Whether you're looking for multiplayer partners, trading card enthusiasts, or speedrunning
+                    aficionados, you'll find your tribe here at <span
+                        class="font-semibold text-red-700">GAMEPOINT.</span></p>
+
+                <div class="mt-10">
+                    <a href="#"
+                        class="bg-red-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-red-700 hover:duration-300">Join
+                        Us</a>
+
+                </div>
+            </div>
+        </section>
+        <footer class="bg-black">
+            <p class="w-50 text-slate-200 text-center py-4">Copyright © JamePoint 2024. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        const toggleBtn = document.querySelector(".toggle-button");
+        const dropdown = document.querySelector(".dropdown-menu");
+
+        toggleBtn.addEventListener("click", () => {
+            dropdown.classList.toggle("invisible");
+        })
+    </script>
+</body>
+
+</html>
